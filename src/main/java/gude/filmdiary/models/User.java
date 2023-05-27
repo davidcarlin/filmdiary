@@ -1,4 +1,4 @@
-package gude.filmdiary.Classes;
+package gude.filmdiary.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
