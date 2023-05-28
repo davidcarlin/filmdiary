@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 import gude.filmdiary.models.User;
 
@@ -62,6 +63,10 @@ public class UserDAO {
             e.printStackTrace();
         }
 
+        return null;
+    }
+
+    public List<User> getAllUsers() {
         return null;
     }
 }
